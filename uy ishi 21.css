@@ -1,0 +1,53 @@
+body{
+    background-color: white;
+}
+
+.father-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 170px;
+}
+
+.img{
+    border-radius: 15px 15px 0px 0px;
+    width: 250px;
+}
+
+.text-title{
+    background-color: white;
+    border: 10px ;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 3px 3px 8px black;
+}
+
+.title{
+    font-weight: 400;
+    font-size: 16px;
+    color: #84829A;
+    padding-left: 12px;
+}
+
+.h2{
+    font-weight: 400;
+    font-size: 18px;
+    color: #080809;
+    padding-left: 12px;
+}
+
+.people{
+    font-weight: 500;
+    font-size: 16px;
+    color: #84829A;
+    padding-left: 12px;
+}
+
+.img{
+    padding-left: 12px;
+}
+
+.greese{
+    padding: 12px 12px 12px;
+}

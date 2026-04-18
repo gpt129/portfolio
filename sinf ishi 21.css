@@ -1,0 +1,10 @@
+h1{
+    width: 350px;
+    height: 350px;
+    color: blue;
+    text-shadow: 3px 3px 1px rgb(171, 22, 159);
+    justify-content: center;
+    padding: 300px;
+    font-size: 50px;
+    font-weight: 900;
+}

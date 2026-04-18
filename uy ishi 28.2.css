@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f7f7f7;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:white;
+}
+
+.header-list{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.logo{
+    font-weight:bold;
+    font-size:20px;
+    color:#8a3d6b;
+}
+
+.login{
+    background:#eee;
+}
+
+.register{
+    background:#8a3d6b;
+    color:white;
+}
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h1{
+    color:#8a3d6b;
+    font-size:40px;
+} 
+
+.hero p{
+    color:#777;
+}
+
+.heroh3{
+    margin-bottom:30px;
+}
+
+.register-section{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.register-section h1{
+    color:#8a3d6b;
+    font-size:40px;
+}
+
+.register-section p{
+    color:#777;
+}
+
+.register-section h3{
+    margin-bottom:30px;
+}
+
+.form-box{
+    width:600px;
+    margin:auto;
+    padding:30px;
+    text-align:left;
+    background:white;
+}
+
+.form-box h4{
+    margin-bottom:20px;
+    color:#8a3d6b;
+}
+
+.form-box label{
+    display:block;
+    margin-top:15px;
+    font-size:14px;
+}
+
+.form-box input{
+    width:100%;
+    padding:12px;
+    margin-top:5px;
+    border:1px solid #ddd;
+    border-radius:4px;
+}

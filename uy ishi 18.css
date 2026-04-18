@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo{
+    text-transform: uppercase;
+}
+
+.header-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.header-btn{
+    border: none;
+    padding: 12px 24px;
+    background-color: #ffffff28;
+    border-radius: 30px;
+    color: #FF00E5;
+}
+
+.hero{
+    height: 83vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+}
+
+.hero-title{
+    font-size: 80px;
+}
+
+.hero-description{
+    font-size: 24px;
+    color: rgb(152, 152, 152);
+}
+
+.hero-btns{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-btn{
+    border: none;
+    padding: 20px 89px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero-btn1{
+    background-color: #FF00E5;
+    color: white;
+}
+
+.hero-btn2{
+    background-color: white;
+    color: black;
+}

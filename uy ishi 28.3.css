@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f7f7f7;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 30px;
+    background:white;
+}
+
+.header-list{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.logo{
+    font-weight:bold;
+    font-size:20px;
+    color:#8a3d6b;
+}
+
+.login{
+    background:#eee;
+}
+
+.register{
+    background:#8a3d6b;
+    color:white;
+}
+
+.ticket-section h1{
+    color:#8a3d6b;
+    font-size:42px;
+}
+
+.ticket-section p{
+    color:#777;
+    margin-bottom:40px;
+}
+
+.img{
+    align-items: center;
+    justify-content: center;
+    width: 794;
+    height: 300;
+    top: 429px;
+    left: 323px;
+    opacity: 1;
+}
+
+.buttons{
+    margin-top:30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.download{
+    background:#8a3d6b;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:6px;
+    margin-right:10px;
+    cursor:pointer;
+}
+
+.share{
+    background:#ddd;
+    border:none;
+    padding:10px 20px;
+    border-radius:6px;
+    cursor:pointer;
+}

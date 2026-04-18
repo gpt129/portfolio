@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    gap: 30px;
+    background-color: #F6EBDA;
+    flex-wrap: wrap;
+    z-index: 1000;
+}
+input{
+    border: none;
+    outline: none;
+}
+.header-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+.btn{
+    border: none;
+    width: 170px;
+    height: 46px;
+    padding: 13px 35px;
+    border-radius: 50px;
+    background:#2F2105;
+    color: white;
+}
+.btn2{
+    border: none;
+    width: 170px;
+    height: 46px;
+    padding: 13px 35px;
+    border-radius: 50px;
+    background:white;
+    color: #2F2105;
+}
+.heder-img{
+    width: 526px;
+    height: 416px;
+}
+.cofe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 30px 200px;
+    background-color: #F6EBDA;
+}
+.cofe-f1{
+    padding-bottom: 20px;
+}
+.cofe-p{
+    padding-bottom: 30px;
+    color: #7E7D7A;
+    margin-bottom: 30px;
+}
+
+.contenier{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.card{
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 10px  black;
+    
+}
+.text{
+    padding: 20px;
+}
+.popular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 30px 200px;
+    background-color: white;
+    
+}
+.popular-h{
+    font-size: 40px;
+} 
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 60px 200px;
+}
+
+.service-h{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.service-s{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.service-card{
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+}
+
+.Special{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 60px 200px;
+}
+
+.Special-h{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contenier2{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+     
+}
+.card{
+    width: 250px;
+    background-color: darkgray;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 10px  black;
+}
+.text{
+    padding: 20px;
+    padding-bottom: 30px;
+}
+.img{
+    width: 100%;
+    border-radius:20px 20px 0 0;
+}
+
+.i{
+    font-size: 35px;
+    gap: 30px;
+}
+
+
+.b,p{
+    border: none;
+    width: 170px;
+    height: 46px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #2F2105;
+}
+
+.foote{
+    background-image: url(./unsplash_ftA71vetxuo.png);
+    width: 1170px;
+    height: 392px;
+    border-radius: 24px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 200px;
+    
+}
+.footer-f{
+    width: 486px;
+    height: 54px;
+    border-radius: 50px;
+}
+
+.email-box{
+    width: 486px;
+    padding: 5px 5px 5px 16px;
+    background-color: white;
+    border-radius: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.email-inp{
+    border: none;
+    outline: none;
+}
+
+button{
+    padding: 11px 32px;
+    background-color: #2F2105;
+    color: white;
+    border: none;
+    border-radius: 33px;
+}
